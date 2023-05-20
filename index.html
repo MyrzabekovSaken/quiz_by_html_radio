@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>This football team won World Cup 2022?</legend>
+          <div>
+            <input type="radio" id="first_answer_1" name="answer_1" value="Argentina" />
+            <label for="first_answer_1">Argentina</label>
+            <input type="radio" id="first_answer_2" name="answer_1" value="France" />
+            <label for="first_answer_2">France</label>
+            <input type="radio" id="first_answer_3" name="answer_1" value="Croatia" />
+            <label for="first_answer_3">Croatia</label>
+          </div>
+        </fieldset>
+      </form>
+      <form>
+        <fieldset>
+          <legend>This football team won in Champions League 2021/2022?</legend>
+          <div>
+            <input type="radio" id="second_answer_1" name="answer_2" value="Liverpool" />
+            <label for="second_answer_1">Liverpool</label>
+            <input type="radio" id="second_answer_2" name="answer_2" value="PSG" />
+            <label for="second_answer_2">PSG</label>
+            <input type="radio" id="second_answer_3" name="answer_2" value="RealMadrid" />
+            <label for="second_answer_3">Real Madrid</label>
+          </div>
+        </fieldset>
+      </form>
+      <form>
+        <fieldset>
+          <legend>This runner broken world record in Berlin 2022 year?</legend>
+          <div>
+            <input type="radio" id="third_answer_1" name="answer_3" value="MoFarah" />
+            <label for="third_answer_1">Mo Farah</label>
+            <input type="radio" id="third_answer_2" name="answer_3" value="EliudKipchoge" />
+            <label for="third_answer_2">Eliud Kipchoge</label>
+            <input type="radio" id="third_answer_3" name="answer_3" value="KeneniseBekele" />
+            <label for="third_answer_3">Kenenise Bekele</label>
+          </div>
+        </fieldset>
+      </form>
+      <button onclick="checkResult()">Press for result</button>
+      <p id="result"></p>
+      <script src="script.js"></script>
+</body> 
+</html>
